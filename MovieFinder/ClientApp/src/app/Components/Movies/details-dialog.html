@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>{{data.title}}</h1>
+<div mat-dialog-content>
+  <div *ngIf="data.year">Year: {{data.year}}</div>
+  <div *ngIf="data.actors">Actors: {{data.actors}}</div>
+  <div *ngIf="data.director">Directed By: {{data.director}}</div>
+  <div *ngIf="data.writer">Written By: {{data.writer}}</div>
+<div *ngIf="data.runtime">Runtime: {{data.runtime}}</div>
+<div *ngIf="data.released">Released: {{data.released}}</div>
+<div *ngIf="data.awards">Awards: {{data.awards}}</div>
+<div *ngIf="data.rating">Rating: {{data.rating}}</div>
+<div *ngIf="data.votes">Votes: {{data.votes}}</div>
+<div *ngIf="data.plot">Plot: {{data.plot}}</div>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-stroked-button color="primary" (click)="onCloseClick()">Close</button>
+</div>
+
+

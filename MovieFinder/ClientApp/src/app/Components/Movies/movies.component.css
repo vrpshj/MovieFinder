@@ -1,0 +1,48 @@
+
+.movieItem {
+  border-color: lightgray;
+  border-style: solid;
+  padding-bottom: 5px;
+  margin-bottom:5px;
+  border-width:thin;
+}
+.movie-cards {
+  max-width: 700px;
+  margin-bottom:8px;
+}
+.movie-card-image {
+
+  background-size: cover;
+}
+
+.action-row button
+{
+  margin-right: 8px;
+}
+
+.search-field {
+  width: 400px;
+}
+
+.Header {
+  background-color: #DC140A;
+}
+
+  .Header img {
+    float: left;
+    width: 100px;
+    height: 74px;
+    padding-right:5px;
+  }
+.Heading1 {
+  color: white;
+  font-family: sans-serif;
+  font-size:30px;
+}
+
+.SubHeading {
+  color: white;
+  font-family: cursive;
+  font-size: 12px;
+  padding-bottom:3px;
+}
